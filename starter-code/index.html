@@ -1,31 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+    <title>Frontend Mentor | Meet landing page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="/" class="header__logo-link" aria-label="Meet — Startseite">
+          <img src="./assets/logo.svg" alt="Meet Logo" class="header__logo" width="120" height="32">
+        </a>
+      </div>
+    </header>
 
-  Download v1.3
-  What is it?
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__images">
+            <picture class="hero__image hero__image--left">
+              <img src="./assets/desktop/image-hero-left.png" alt="">
+            </picture>
 
-  01
-  Built for modern use
+            <picture class="hero__image hero__image--right">
+              <img src="./assets/desktop/image-hero-right.png" alt="">
+            </picture>
+          </div>
 
-  Smarter meetings, all in one place
+          <div class="hero__content">
+            <h1 class="hero__title">Group Chat for Everyone</h1>
+            <p class="hero__description">
+            Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+          </p>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+            <div class="button-group hero__actions">
+              <button type="button" class="button button--turquoise">
+                <span>Download <span class="button__subtext">v1.3</span></span>
+              </button>
+              <button type="button" class="button button--purple">
+                <span>What is it?</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+      <section>
+        <p>01</p>
+        <p>Built for modern use</p>
+        <h2>Smarter meetings, all in one place</h2>
+        <p>Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+      </section>
 
-  Download v1.3
-</body>
+      <section>
+        <p>02</p>
+        <h2>Experience more together</h2>
+        <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button type="button" class="button button--turquoise">
+          <span>Download <span class="button__subtext">v1.3</span></span>
+        </button>
+      </section>
+    </main>
+  </body>
 </html>

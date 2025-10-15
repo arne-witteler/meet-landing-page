@@ -1,0 +1,36 @@
+@import url(variables.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-white);
+}
+
+.button--turquoise, .button--purple {
+  color: var(--color-white);
+  border-radius: 29px;
+  border: none;
+  padding: 16px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+.button--turquoise {
+  background-color: var(--color-cyan-600);
+}
+
+.button--purple {
+  background-color: var(--color-purple-600);
+}
+
+.button__subtext {
+  color: var(--color-cyan-300);
+}
