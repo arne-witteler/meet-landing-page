@@ -9,6 +9,83 @@
 body {
   font-family: var(--font-sans);
   background-color: var(--color-white);
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 80px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  overflow-x: hidden;
+  padding: 64px 0px;
+}
+
+.hero__inner {
+  position: relative;        
+}
+
+.hero__images {
+  position: relative;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  width: calc(120vw + 1rem);
+  gap: 1rem;
+  transform: translateX(calc(-50% - 1vw));
+}
+
+.hero__image img {
+  display: block;
+  width: 60vw;
+  height: auto;
+  max-width: none;
+}
+
+.hero__content {
+  position: relative;
+  margin: 32px 0;
+  text-align: center;
+  z-index: 1;
+  padding: 0 32px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  color: var(--color-slate-900);
+  line-height: 110%;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 0 16px;
+}
+
+.hero__description {
+  margin-bottom: 24px;
+  color: var(--color-slate-600);
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .button--turquoise, .button--purple {
@@ -21,6 +98,8 @@ body {
   font-size: 16px;
   line-height: 150%;
   font-weight: 600;
+  display: inline-flex;
+  width: fit-content;
 }
 
 .button--turquoise {
