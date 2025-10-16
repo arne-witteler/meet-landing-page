@@ -19,6 +19,24 @@
   font-weight: 600;
   display: inline-flex;
   width: fit-content;
+
+  &:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+}
+
+.button-background {
+  background-color: var(--color-white);
+  border-radius: 29px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-flex;
+  width: fit-content;
 }
 
 .button--turquoise {
