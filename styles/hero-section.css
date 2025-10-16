@@ -1,0 +1,57 @@
+@import url(variables.css);
+
+.hero {
+  overflow-x: hidden;
+  padding: 0px 32px;
+}
+
+.hero__inner {
+  position: relative;    
+}
+
+.hero__images {
+  position: relative;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  width: calc(120vw + 1rem);
+  gap: 1rem;
+  transform: translateX(calc(-50% - 1vw));
+}
+
+.hero__image img {
+  display: block;
+  width: 60vw;
+  height: auto;
+  max-width: none;
+}
+
+.hero__content {
+  position: relative;
+  margin: 32px 0;
+  text-align: center;
+  z-index: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  color: var(--color-slate-900);
+  line-height: 110%;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 0 16px;
+}
+
+.hero__description {
+  margin-bottom: 24px;
+  color: var(--color-slate-600);
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 500;
+}

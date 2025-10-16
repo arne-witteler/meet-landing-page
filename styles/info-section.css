@@ -1,0 +1,64 @@
+@import url(variables.css);
+
+
+.info {
+  overflow-x: hidden;
+  padding: 0px 32px;
+}
+
+.info__inner {
+  position: relative;    
+}
+
+.info__content {
+  position: relative;
+  margin: 32px 0;
+  text-align: center;
+  z-index: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__description {
+  margin-bottom: 24px;
+  color: var(--color-slate-600);
+  line-height: 150%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.info__images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;                
+  width: 100%;
+  max-width: 600px;
+}
+
+.info__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.info__eyebrow {
+  margin: 16px 0;
+  color: var(--color-cyan-600);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.info__title {
+  margin-bottom: 24px;
+  color: var(--color-slate-900);
+  line-height: 110%;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 0 16px;
+}
