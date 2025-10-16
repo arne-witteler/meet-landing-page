@@ -37,3 +37,15 @@
 .button__subtext-purple {
   color: var(--color-purple-300);
 }
+
+@media (min-width: 768px) {
+  .button-group {
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .button--turquoise {
+    margin-bottom: 0;
+  }
+}
