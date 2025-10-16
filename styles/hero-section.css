@@ -55,3 +55,27 @@
   font-size: 16px;
   font-weight: 500;
 }
+
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 40px;
+    padding: 0 220px;
+  }
+
+  .hero__description {
+    font-size: 18px;
+    padding: 0 100px;
+  }
+
+  .hero__images {
+    width: 110vw;
+    gap: 0.5rem;
+  }
+
+  .hero__image img {
+    display: block;
+    width: 55vw;
+    height: auto;
+    max-width: none;
+  }
+}
