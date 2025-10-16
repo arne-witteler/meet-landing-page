@@ -69,7 +69,7 @@
 
   .hero__images {
     width: 110vw;
-    gap: 0.5rem;
+    gap: 2rem;
   }
 
   .hero__image img {
