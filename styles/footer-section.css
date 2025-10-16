@@ -67,5 +67,11 @@
 
 .footer__number {
   position: absolute;
-  top: -30px;
+  top: -35px;
+}
+
+@media (min-width: 768px) {
+  .footer__description {
+    padding: 0 100px;
+  }
 }
