@@ -58,6 +58,7 @@
 
 @media (min-width: 768px) {
   .hero__title {
+    margin-top: 32px;
     font-size: 40px;
     padding: 0 220px;
   }
