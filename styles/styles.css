@@ -58,3 +58,12 @@ body {
   font-size: 18px;
   color: var(--color-slate-600);
 }
+
+@media (min-width: 1440px) {
+  .container .hero__inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}

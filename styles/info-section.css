@@ -97,7 +97,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1919px){
 
   .info__title {
     padding: 0 450px;
