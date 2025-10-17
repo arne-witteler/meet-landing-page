@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 2000px) {
   .hero {
     position: relative;
     padding: 6rem 1.5rem;
